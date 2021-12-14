@@ -49,3 +49,20 @@ print(pokemon[-1]) #-1 will always give u the last item in the list
 
 pokemon[1] = 'mewtwo' #u can change the elements in a list
 print(pokemon[1])
+
+#12/14
+
+pokemon.append('bulba') #can add things to lists like this
+print(pokemon)
+
+halo = [] #can add to empty list too
+halo.append('chief')
+halo.append('weapon')
+halo.append('arby')
+print(halo)
+
+halo.insert(0, 'spark') #can add at specific place without replacing
+print(halo)
+
+del halo[0] #delete lists items like this
+print(halo)
