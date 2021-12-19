@@ -66,3 +66,17 @@ print(halo)
 
 del halo[0] #delete lists items like this
 print(halo)
+
+#12/15
+
+halo.sort() #sorts list into alphabetical
+print(halo)
+
+halo.sort(reverse=True) #reverse alphabetical
+print(halo)
+
+halo.reverse() #does list in reverse order
+print(halo)
+
+print(len(halo)) #shows length of list
+
