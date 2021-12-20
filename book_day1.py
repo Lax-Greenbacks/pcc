@@ -67,7 +67,7 @@ print(halo)
 del halo[0] #delete lists items like this
 print(halo)
 
-#12/15
+#12/18
 
 halo.sort() #sorts list into alphabetical
 print(halo)
@@ -80,3 +80,21 @@ print(halo)
 
 print(len(halo)) #shows length of list
 
+#12/19
+
+halo.remove('arby') #how to remove items by value
+print(halo)
+
+gun = 'weapon' #removing by definition
+halo.remove(gun)
+print(halo)
+
+pirates = ['peg', 'rum', 'eyepatch', 'parrot']
+pirates.sort() #sorting like this is permanent in the code
+print(pirates)
+
+pirates.reverse() #simply reverses order of list
+print(pirates)
+
+for things in pirates:
+    print(pirates)
