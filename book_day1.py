@@ -96,5 +96,26 @@ print(pirates)
 pirates.reverse() #simply reverses order of list
 print(pirates)
 
-for things in pirates:
+for things in pirates: #this dont work right i dont get it
     print(pirates)
+
+#12/20
+
+for value in range(1, 5): # doesn't print the 5
+    print(value)
+
+even_numbers = list(range(2, 11, 2)) #printing the evens
+print(even_numbers)
+
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+
+print(squares)
+
+digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0] #finding things with lists of numbas
+print(min(digits))
+print(max(digits))
+print(sum(digits))
+
