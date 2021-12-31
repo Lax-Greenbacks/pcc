@@ -132,3 +132,28 @@ people = ('john', 'matt', 'jo', 'jack', 'jeep') # looping in this slice
 print("Here's the first 3 people in the list:")
 for humans in people[:3]:
     print(humans.title())
+
+my_foods = ['pizza', 'falafel', 'carrot cake'] #copying a list
+friend_foods = my_foods[:]
+print("My favorite foods are:")
+print(my_foods)
+print("\nMy friend's favorite foods are:")
+print(friend_foods)
+
+dimensions = (200, 50) #this is a tuple, it uses ( ) instead of [ ]
+print(dimensions[0])
+print(dimensions[1])
+
+#chapter 5 if statements
+
+fruits = ['apple', 'banana', 'kiwi', 'peach']
+for fruit in fruits:
+    if fruit == 'kiwi':
+        print(fruit.upper())
+    else:
+        print(fruit.title())
+
+car = 'bmw'
+print(car == 'bmw') #This shows true
+print(car == 'audi') #This shows false
+print(car == 'Bmw') #case sensitie (false)
