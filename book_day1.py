@@ -119,3 +119,16 @@ print(min(digits))
 print(max(digits))
 print(sum(digits))
 
+#12/30
+
+rooster = ['egg', 'feather', 'hen', 'chick', 'omlet']
+print(rooster[0:3]) #gets specific slice of a list
+print(rooster[1:4]) #rember how the indexing works bruh
+print(rooster[:4]) #list will default start to beginning
+print(rooster[2:]) #this ones unique cause it will finish off the list
+print(rooster[-3:]) #this one takes last 3 because of the -
+
+people = ('john', 'matt', 'jo', 'jack', 'jeep') # looping in this slice
+print("Here's the first 3 people in the list:")
+for humans in people[:3]:
+    print(humans.title())
