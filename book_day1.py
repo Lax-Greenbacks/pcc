@@ -157,3 +157,25 @@ car = 'bmw'
 print(car == 'bmw') #This shows true
 print(car == 'audi') #This shows false
 print(car == 'Bmw') #case sensitie (false)
+
+answer = 20
+if answer != 42:
+    print("Not the correct answer.")
+
+age = 19
+print(age < 21) #true
+print(age <= 21) #true
+print(age > 21) #false
+print(age > 15 and age < 33) #can do multiple (true)
+
+toppings = ['mushrooms', 'salami', 'tomato']
+print('mushrooms' in toppings) #checking stuff in a list (true)
+
+admission = 12 #here some else if stuff
+if admission < 4:
+    print("Your admission cost is $0.")
+elif admission < 18:
+    print("Your admission cost is $25.")
+else:
+    print("Your admission cost is $40.")
+
